@@ -1,0 +1,3 @@
+﻿  Source.cpp
+E:\this file for github\school\school\Source.cpp(23,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  school.vcxproj -> E:\this file for github\school\x64\Debug\school.exe

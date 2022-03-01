@@ -1,0 +1,9 @@
+﻿  Source.cpp
+E:\this file for github\school\school\Source.cpp(11,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+E:\this file for github\school\school\Source.cpp(20,7): error C2664: 'void Subject_Student::s(Meta_Date_Subject *)': cannot convert argument 1 from 'Meta_Date_Subject' to 'Meta_Date_Subject *'
+E:\this file for github\school\school\Source.cpp(20,6): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+E:\this file for github\school\school\Subject_Student.h(26,7): message : see declaration of 'Subject_Student::s'
+E:\this file for github\school\school\Source.cpp(22,14): error C2679: binary '=': no operator found which takes a right-hand operand of type 'Meta_Date_Subject *' (or there is no acceptable conversion)
+E:\this file for github\school\school\Meta_Date_Subject.h(69,1): message : could be 'Meta_Date_Subject &Meta_Date_Subject::operator =(Meta_Date_Subject &&)'
+E:\this file for github\school\school\Meta_Date_Subject.h(69,1): message : or       'Meta_Date_Subject &Meta_Date_Subject::operator =(const Meta_Date_Subject &)'
+E:\this file for github\school\school\Source.cpp(22,14): message : while trying to match the argument list '(Meta_Date_Subject, Meta_Date_Subject *)'
